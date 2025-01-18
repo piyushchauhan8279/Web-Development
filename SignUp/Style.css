@@ -1,0 +1,83 @@
+body {
+  background-color: #575353;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form {
+  display: inline;
+}
+
+
+#email {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 320px;
+  margin-left: 65px;
+  margin-bottom: 30px;
+  
+}
+
+#fname {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 95px;
+  text-align: center;
+
+}
+#lname {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 95px;
+  margin-left: 20px;
+  text-align: center;
+
+  
+}
+#password {
+  width: 160px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 135px;
+  text-align: center;
+
+}
+
+button {
+  padding: 8px;
+  font-weight: bolder;
+  color: black;
+  background-color: rgb(141, 141, 199);
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 90px;
+  margin: 30px 125px auto 1500px;
+
+}
+button:hover {
+  background-color: rgb(119, 174, 228);
+}
+.card {
+  background-color: #eee9e9;
+  height: 400px;
+  width: 480px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+  font-weight: bolder;
+}
