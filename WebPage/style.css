@@ -1,0 +1,79 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    
+    background: linear-gradient(45deg, black, transparent);
+    height: 100vh;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+    
+}
+img{
+    border-radius: 2px;
+    margin-bottom: 20px;
+   
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e4dddd;
+    margin-bottom: 20px;
+
+}
+p{
+    font-family: "Noto Sans", serif;
+    color: rgb(5, 9, 123);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+input[type="email"]{
+    padding: 10px;
+    border:1px solid aliceblue;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+button{
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    color: rgb(58, 57, 57);
+    font-weight: bolder;
+    margin-left: 41px;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(33, 33, 33);
+}
+
