@@ -1,0 +1,58 @@
+.container{
+    height: 300px;
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    background: linear-gradient(156deg, #c854c6, #ab1b2c00);
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    background-color: #e02323;
+    border-radius: 50px;
+    margin-bottom: 15px;
+
+}
+
+.box1{
+    display: flex;
+
+}
+
+.box2{
+    display: flex;
+    justify-content:space-around;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column-reverse;   
+}
+
+.box4{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    
+}
+
+.box5{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    
+}
+.box6{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content:center;
+}
