@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background: linear-gradient(105deg,rgb(22, 22, 134),rgb(189, 182, 182));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family:Arial, Helvetica, sans-serif;
+            
+        }
+        .container{
+            background-color: #e5d4d4;
+            width: 500px;
+            text-align: center;
+            border-radius: 3px;
+            border: 2px solid black;
+            height: 50px;
+            color: blueviolet;
+            font-size: larger;
+            font-weight: bolder;
+            padding-top: 24px;
+        }
+        @media(max-width:600px){
+            body{
+                background: linear-gradient(105deg,pink,purple);
+            }
+
+        }
+
+        @media (min-width:800px){
+            body{
+                background: linear-gradient(100deg, orange,white);
+            }
+
+        }
+
+        @media(max-width:500px) and (min-width:400px){
+            .container{
+                width: 200px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        I am a Div
+    </div>
+    
+</body>
+</html>
